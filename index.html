@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web</title>
+    <link rel="stylesheet" href="assets/css/Estilos.css">
+</head>
+<body>
+     <!-- Menú de Navegacion -->
+     <header>
+        <nav>
+            <aside class="image">
+                <img src="assets/images/spotify (1).png" alt="" height="60px">
+              </aside>
+            <ul>
+                <li><a href="#Artista">Artista</a></li>
+                <li><a href="#Musica">Música</a></li>
+                <li><a href="#Videos">Videos</a></li>
+                <li><a href="#Galeria">Galería</a></li>
+                <li><a href="#Lugar">Lugar</a></li>
+                <li><a href="#Boleteria">Boletería</a></li>
+                <li><a href="#Contáctanos">Contáctanos</a></li>
+                <aside>
+                 <input type="search" placeholder="Buscar" name="Buscar">
+                </aside>
+            </ul>
+        </nav>
+        
+    </header>
+     <!-- Fin Menú de Navegacion -->
+
+     <!-- Contenido Principal -->
+     <main class="main-container">
+        <!-- Contenido textual a un lado -->
+         <section class="content" id="Artista" >
+            <h1>Información Del Artista</h1>
+            <p>Juan Esteban Aristizábal Vásquez (Medellín, Antioquia, 9 de agosto de 1972) conocido por su nombre artístico Juanes, es un cantante, compositor, músico y diseñador industrial colombiano. Se desempeña principalmente en los géneros musicales de pop latino y rock en español, combinando diversos ritmos musicales.</p><br>
+            <section class="video" id="Videos">
+                <h2>
+                    Video - Me Enamora 
+                </h2>
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/iFClTRUnmKc?si=_n5ONlLG4wFHg7PJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+            </section>
+        </section>
+     </main>
+     
+     <section class="musica" id="Musica">
+        <h2>Reproductor De Música</h2>
+        <audio controls>
+            <source src="assets/music/ytmp3free.cc_juanes-me-enamora-en-vivo-youtubemp3free.org.mp3" type="audio/mpeg">
+        </audio>
+     </section><br> <br>
+
+     <section class="galeria" id="Galeria">
+        <h2>Galería De Fotos</h2>
+        <aside class="image-container">
+            <img src="assets/images/juaness.jpeg" alt="">
+            <img src="assets/images/Premio.jpg" alt="">
+            <img src="assets/images/Guitarra.jpeg" alt="">
+          </aside>
+     </section> <br>
+
+     <section class="lugar" id="Lugar">
+        <h2>Información Del Lugar</h2>
+        <p>El concierto se realizará el dia 02 de noviembre en La Macarena - Medellin/ Antioquia </p>
+        <h3>¿Cómo Llegar?</h3><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1078398494155!2d-75.58310672592079!3d6.249518493738897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429074ecff633%3A0x9986f9dfbac17443!2sLa%20Macarena!5e0!3m2!1ses-419!2sco!4v1729708465055!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1729718744553!6m8!1m7!1sRxAOAR1hO0rRoU86PEy7YA!2m2!1d6.249408827658606!2d-75.58096622314261!3f358.2727714559038!4f0.8172492762790142!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </section> <br>
+
+     <section class="boleta" id="Boleteria">
+        <h2>Información De Boletería</h2>
+        <div class="boleta">
+            <table border="3px">
+            <tr>
+            <th>Sector</th>
+            <th>Precio</th>
+            </tr>
+            <tr>
+                <td>VIP</td>
+                <td>$500.000</td>
+            </tr>
+            <tr>
+                <td>Preferencial</td>
+                <td>$350.000</td>
+            </tr>
+            <tr>
+                <td>General</td>
+                <td>$200.000</td>
+            </tr>
+            </table>
+        </div>
+     </section>
+
+    <section class="contactos" id="Contáctanos">
+        <h2>Contáctanos</h2>
+            <form action="">
+                <h3>Nombre:</h3>
+                <input type="text" name="nambre" placeholder="Escribe tu nombre" required>
+                <h3>Correo:</h3>
+                <input type="email" name="correo" placeholder="Escribe tu correo" required>
+                <h3>Mensaje:</h3>
+                <textarea name="mensaje" id="" placeholder="Escribe tu mensaje"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+     </section>
+
+     <footer>
+        <a href="https://web.facebook.com/?_rdc=1&_rdr"><img src="assets/images/facebook.png" alt="" height="20px"></a>
+        <a href="https://www.instagram.com/"><img src="assets/images/instagram.png" alt="" height="20px"></a>
+        <a href="https://web.whatsapp.com/"><img src="assets/images/whastapp.png" alt="" height="20px"></a>
+      <p>&copy;2024 Concierto En La Macarena. Todos los derechos reservados <br>
+        Emmanuel Álvarez - Mariana Pérez
+      </p>
+     </footer>  
+</body>
+</html>

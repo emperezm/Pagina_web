@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    background-color: #d9d9d9;
+}
+
+header{
+    background-color: rgb(202, 234, 230);
+    color: black;
+    padding: 10px;
+}
+.image{
+    height: 10px;
+    margin-left: 40px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a {
+    color: rgb(18, 115, 115);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+.content{
+    flex:1 1 60% ;
+    padding: 20px;
+}
+.main-container{
+    flex:1 1 35% ;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.video iframe{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+.musica{
+    justify-content: center;
+    text-align: center; 
+}
+.galeria{
+    justify-content: center;
+    text-align: center;  
+}
+.lugar{
+    justify-content: center;
+    text-align: center; 
+}
+.boleta{
+    display: flex;
+    flex-direction: column;
+    margin: 0 180px;
+    justify-content: center;
+    text-align: center; 
+}
+.contactos{
+    padding: 50px 20px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+input, textarea{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid wheat;
+}
+button{
+    padding: 10px;
+    background-color: rgb(37, 119, 154);
+    color: bisque;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: cadetblue;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(13, 194, 55);
+    color: aliceblue;
+    margin-top: 30px;
+}
+
+aside.image-container img {
+    width: 30%;
+    height: 300px;
+}
